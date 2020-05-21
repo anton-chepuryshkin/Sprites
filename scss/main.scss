@@ -1,0 +1,42 @@
+
+.smile {
+	background-image:  url(../images/download.jpg);
+	width: 81px;
+	height: 90px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-position: -7px 0;
+	&:hover{
+		background-position: 0 -94px;
+	}
+}
+.smile1 {
+	background-position: -88px 0;
+	&:hover{
+		background-position: -88px -94px;
+	}
+}
+.smile2 {
+	background-position: -168px 0;
+	&:hover{
+		background-position: -168px -94px;
+	}
+}
+.smile3 {
+	background-position: -7px -94px;
+	&:hover{
+		background-position: -7px -0px;
+	}
+}
+.smile4 {
+	background-position: -88px -94px;
+	&:hover{
+		background-position: -88px 0px;
+	}
+}
+.smile5 {
+	background-position: -168px -94px;
+	&:hover{
+		background-position: -168px 0px;
+	}
+}
