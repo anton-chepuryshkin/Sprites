@@ -1,13 +1,15 @@
+a {
+  text-decoration: none;
+}
+
 .smile {
-  background-image: url(../images/download.jpg);
+  background: url(../images/download.jpg) -7px 0 no-repeat;
   width: 81px;
   height: 90px;
-  background-repeat: no-repeat;
   display: inline-block;
-  background-position: -7px 0;
 }
 .smile:hover {
-  background-position: 0 -94px;
+  background-position: -7px -94px;
 }
 
 .smile1 {
